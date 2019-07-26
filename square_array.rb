@@ -1,3 +1,4 @@
+require 'pry'
 def square_array(array)
   new_arr = []
   array.each do |num| 
@@ -8,4 +9,5 @@ end
 
 def square_array(array)
   array.collect {|num| num ** 2}
+  binding.pry
 end
