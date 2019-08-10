@@ -1,3 +1,10 @@
 def square_array(array)
-  # your code here
+  #
+  new_array = []
+  array.each do |i|
+  #Squares array
+  new_array << (i ** 2)
+  end
+  #Return new array
+  return new_array
 end
